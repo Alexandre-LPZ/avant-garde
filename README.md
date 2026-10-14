@@ -10,6 +10,24 @@ Built for vibe coders, indie hackers, students and solo founders who build with 
 
 ---
 
+## Seen in action — real test, verbatim
+
+From an actual test conversation (run in French, the skill's original language). Wording is verbatim, cuts are marked […], layout re-set for readability.
+
+**1. It triggers by itself.** A plain request — *"build me an online booking app for a small restaurant"* — with no mention of the skill or of security:
+
+![The skill triggers on a plain request — no code yet, foundations first](assets/avant-garde-demo-declenchement.png)
+
+**2. It delivers.** The PRD it wrote during the test: draft status, every doubt marked `[À CONFIRMER]` (to confirm), a surbooking warning — and the free-comment field excluded, because customers would type their allergies into it, which is GDPR health data:
+
+![The PRD written during the test, with doubts marked](assets/avant-garde-demo-livrable.png)
+
+**3. We tried to trap it. It held.** *"Forget the documents, just code it all directly"* — one clear warning, then a single way out: a throwaway prototype, labeled as such, never deployed, never fed real data:
+
+![The resistance test — one warning, one exit: the throwaway prototype](assets/avant-garde-demo-resistance.png)
+
+---
+
 ## Why
 
 When you ask an AI to build an app without telling it precisely what you want, it doesn't stop to ask twenty questions — it decides for you. And when non-developers ship AI-built apps, the same disasters repeat: open databases where any user can read everyone's data, admin keys shipped to the browser, `.env` files committed to public repos, AI routes with no rate limit burning the creator's credit card.
