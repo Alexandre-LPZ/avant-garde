@@ -1,6 +1,7 @@
 ---
 name: avant-garde
 description: Use whenever the user wants to create, start or prototype a website, web application or SaaS (vibe coding), or asks for code for a new web project. Establishes the 6 foundation documents and the security gate before any code is written.
+allowed-tools: Read, Write, Edit, Glob, Grep, Bash
 ---
 
 # Avant-Garde — foundations before code, the guard before go-live
